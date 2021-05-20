@@ -1,0 +1,17 @@
+name: Static analysis
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  markdownlint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check-out git branch
+        uses: actions/checkout@v2.3.4
+      - name: Run markdownlint
+        uses: reviewdog/action-markdownlint@v0.1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-pr-review
