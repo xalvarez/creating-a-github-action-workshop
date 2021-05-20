@@ -5,6 +5,8 @@ revealOptions:
     transition: 'slide'
 ---
 
+<!-- markdownlint-disable-file no-trailing-punctuation no-inline-html -->
+
 # Creating a GitHub Action
 
 Xavier Alvarez
