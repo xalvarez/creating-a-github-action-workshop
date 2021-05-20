@@ -1,0 +1,22 @@
+{
+  "name": "creating-a-github-action-workshop",
+  "description": "Slides for my 'Creating a GitHub Action' workshop",
+  "scripts": {
+    "start": "reveal-md slides/slides.md",
+    "watch": "reveal-md slides/slides.md -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xalvarez/creating-a-github-action-workshop.git"
+  },
+  "keywords": [
+    "github-actions",
+    "reveal-md"
+  ],
+  "author": "Xavier Alvarez",
+  "license": "MIT",
+  "homepage": "https://github.com/xalvarez/creating-a-github-action-workshop#readme",
+  "devDependencies": {
+    "reveal-md": "^5.1.0"
+  }
+}
