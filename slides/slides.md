@@ -143,6 +143,13 @@ Implementation:
 
 * Write action.yml: [https://docs.github.com/en/actions/creating-actions/metadata-syntax-for-github-actions][1]
 * Install @actions/github
+* Write code
+* `npm run all` fails because of no tests
+* Paste already written test and run ``npm run all` again.
+* Show files in dist folder.
+* Change version in package.json
+* Publish release
+* Show how to publish Action to the marketplace
 
 [1]: https://docs.github.com/en/actions/creating-actions/metadata-syntax-for-github-actions
 
@@ -150,10 +157,18 @@ Implementation:
 
 ## Before you go...
 
-* [https://github.com/xalvarez/creating-a-github-action-workshop][1]
-* [https://github.com/xalvarez/prevent-file-change-action][2]
-* [https://github.com/actions][3]
+* Example Action: [https://github.com/xalvarez/prevent-file-change-action][1]
+* Official doc: [https://docs.github.com/en/actions/creating-actions][3]
+* Official resources: [https://github.com/actions][2]
+* Actions marketplace: [https://github.com/marketplace?type=actions][4]
 
-[1]: https://github.com/xalvarez/creating-a-github-action-workshop
-[2]: https://github.com/xalvarez/prevent-file-change-action
-[3]: https://github.com/actions
+[1]: https://github.com/xalvarez/prevent-file-change-action
+[2]: https://github.com/actions
+[3]: https://docs.github.com/en/actions/creating-actions
+[4]: https://github.com/marketplace?type=actions
+
+---
+
+## Thanks!
+
+Any questions?
