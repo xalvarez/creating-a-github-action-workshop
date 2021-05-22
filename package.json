@@ -1,6 +1,7 @@
 {
   "name": "creating-a-github-action-workshop",
   "description": "Slides for my 'Creating a GitHub Action' workshop",
+  "private": true,
   "scripts": {
     "start": "reveal-md slides/slides.md",
     "watch": "reveal-md slides/slides.md -w"
