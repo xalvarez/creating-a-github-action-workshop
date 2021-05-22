@@ -34,7 +34,7 @@ how to create your own Action. We should have enough time.
 
 ---
 
-# Use case
+## Use case
 
 ---
 
@@ -74,7 +74,7 @@ Note:
 
 ---
 
-# Implementation
+## Implementation
 
 ---
 
@@ -90,7 +90,8 @@ More info: [https://docs.github.com/en/actions/creating-actions][1]
 
 Note:
 
-* We have different ways to implement an Action. I decided to write a JS Action using TS.
+* We have different ways to implement an Action.
+I decided to write a JS Action using TS.
 
 ---
 
@@ -142,7 +143,6 @@ Implementation:
 
 * Write action.yml: [https://docs.github.com/en/actions/creating-actions/metadata-syntax-for-github-actions][1]
 * Install @actions/github
-
 
 [1]: https://docs.github.com/en/actions/creating-actions/metadata-syntax-for-github-actions
 
