@@ -143,7 +143,7 @@ Implementation:
 
 * Write action.yml: [https://docs.github.com/en/actions/creating-actions/metadata-syntax-for-github-actions][1]
 * Install @actions/github
-* Write code
+* Show code using workshop and main branches
   * Octokit: [https://octokit.github.io/rest.js][2]
 * `npm run all` fails because of no tests
 * Paste already written test and run ``npm run all` again.
