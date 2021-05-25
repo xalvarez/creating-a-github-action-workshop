@@ -95,21 +95,6 @@ I decided to write a JS Action using TS.
 
 ---
 
-## GitHub Templates
-
-* **[https://github.com/actions/typescript-action][1]**
-* [https://github.com/actions/javascript-action][2]
-
-[1]: https://github.com/actions/typescript-action
-[2]: https://github.com/actions/javascript-action
-
-Note:
-
-* For our use case we've got two templates which come in handy.
-* Use template to create a TS Action.
-
----
-
 ## GitHub Actions Toolkit
 
 [https://github.com/actions/toolkit][1]
@@ -126,7 +111,22 @@ Most interesting packages:
 
 ---
 
-## Live Coding
+## GitHub Templates
+
+* **[https://github.com/actions/typescript-action][1]**
+* [https://github.com/actions/javascript-action][2]
+
+[1]: https://github.com/actions/typescript-action
+[2]: https://github.com/actions/javascript-action
+
+Note:
+
+* For our use case we've got two templates which come in handy.
+* Use template to create a TS Action.
+
+---
+
+## Code
 
 Note:
 
@@ -142,20 +142,22 @@ Show template:
 Implementation:
 
 * Write action.yml: [https://docs.github.com/en/actions/creating-actions/metadata-syntax-for-github-actions][1]
-* Install @actions/github
+* Querying GitHub API
+  * Initialization (token): [https://github.com/actions/toolkit/tree/main/packages/github][2]
+  * Octokit: [https://octokit.github.io/rest.js][3]
 * Show code using workshop and main branches
-  * Octokit: [https://octokit.github.io/rest.js][2]
 * `npm run all` fails because of no tests
 * Paste already written test and run ``npm run all` again.
 * Show files in dist folder.
 * Change version in package.json
 * Publish release
 * Show how to publish Action to the marketplace
-  * Versioning: [https://github.com/actions/toolkit/blob/master/docs/action-versioning.md][3]
+  * Versioning: [https://github.com/actions/toolkit/blob/master/docs/action-versioning.md][4]
 
 [1]: https://docs.github.com/en/actions/creating-actions/metadata-syntax-for-github-actions
-[2]: https://octokit.github.io/rest.js
-[3]: https://github.com/actions/toolkit/blob/master/docs/action-versioning.md
+[2]: https://github.com/actions/toolkit/tree/main/packages/github
+[3]: https://octokit.github.io/rest.js
+[4]: https://github.com/actions/toolkit/blob/master/docs/action-versioning.md
 
 ---
 
