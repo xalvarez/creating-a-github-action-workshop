@@ -124,12 +124,6 @@ Note:
 * For our use case we've got two templates which come in handy.
 * Use template to create a TS Action.
 
----
-
-## Code
-
-Note:
-
 Show template:
 
 * This Action implements a sleep
@@ -138,6 +132,12 @@ Show template:
 * Workflow to test local Action
 * package.json
 * main.ts and wait.ts
+
+---
+
+## Code
+
+Note:
 
 Implementation:
 
@@ -152,12 +152,14 @@ Implementation:
 * Change version in package.json
 * Publish release
 * Show how to publish Action to the marketplace
-  * Versioning: [https://github.com/actions/toolkit/blob/master/docs/action-versioning.md][4]
+  * Create release: [https://github.com/xalvarez/prevent-file-change-action][4]
+  * Versioning: [https://github.com/actions/toolkit/blob/master/docs/action-versioning.md][5]
 
 [1]: https://docs.github.com/en/actions/creating-actions/metadata-syntax-for-github-actions
 [2]: https://github.com/actions/toolkit/tree/main/packages/github
 [3]: https://octokit.github.io/rest.js
-[4]: https://github.com/actions/toolkit/blob/master/docs/action-versioning.md
+[4]: https://github.com/xalvarez/prevent-file-change-action
+[5]: https://github.com/actions/toolkit/blob/master/docs/action-versioning.md
 
 ---
 
