@@ -62,7 +62,7 @@ jobs:
       - name: Check-out git branch
         uses: actions/checkout@v2.3.4
       - name: Prevent 'example' files from being modified
-        uses: xalvarez/prevent-file-change-action@v1.0.0
+        uses: xalvarez/prevent-file-change-action@v1.0.1
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           pattern: .*example
